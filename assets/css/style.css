@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Ramaraja&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap');
+
+body {
+    background: #fafafa;
+    margin: 0;
+    width: 100%;
+}
+
+#topbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    margin: 0em;
+    padding: 1vh 0vh 0vh 0vh;
+    position: fixed;
+    background-color: #fafafa;
+    top: 0;
+    z-index: 1;
+    height: 8vh;
+}
+
+#nameplate {
+    padding: 0rem 3rem 0rem 3rem;
+    margin: 0em;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+#navbar h2 {
+    padding: 0em 0em;
+    margin: 0.5em 0em
+}
