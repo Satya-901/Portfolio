@@ -1,0 +1,330 @@
+#hamburger-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 1302px) {
+
+    .project-card,
+    .project-card-gradient {
+        height: 22.5rem;
+    }
+
+    .project-card-image {
+        height: 10rem;
+    }
+
+    .up-next {
+        justify-content: flex-end;
+        margin: auto;
+    }
+
+    #polaroid-row img {
+        width: 20%;
+    }
+
+    #polaroid-row h4 {
+        width: 30%;
+    }
+
+    #polaroid-1,
+    #polaroid-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .project-card-role {
+        padding: 1em;
+    }
+
+    .section-content {
+        margin: 2em;
+    }
+
+    .project-card,
+    .project-card-gradient {
+        height: 23rem;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 32px;
+    }
+
+    .section-starter h1 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    .project-card-image {
+        height: 7rem;
+    }
+
+    .project-card,
+    .project-card-gradient,
+    .project-card-image {
+        width: 15rem;
+    }
+
+    .project-card,
+    .project-card-gradient {
+        height: 19.5rem;
+    }
+
+    .project-card-gradient {
+        margin: 1.75em 1em;
+    }
+
+    #contact-button {
+        margin: 0em 0.5em;
+    }
+
+    #mail-gradient {
+        margin: 1em 0.5em;
+    }
+
+    .section-starter h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #topbar {
+        padding: 0.25em 0em 0em 0em;
+    }
+
+    #navbar,
+    #navbar ul,
+    #navbar li,
+    #navbar h2,
+    #navbar a {
+        padding: 0;
+        margin: 0;
+        height: 0;
+    }
+
+    #hamburger-nav {
+        display: block;
+        font-size: 28px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin: 0em 2rem 0.25rem;
+        background-color: transparent;
+        border: transparent;
+    }
+
+    .project-card,
+    .project-card-gradient,
+    .project-card-image {
+        width: 14rem;
+    }
+
+    .project-card,
+    .project-card-gradient {
+        height: 18rem;
+    }
+
+    #nameplate {
+        padding: 0rem 1.5rem;
+        margin: 0;
+    }
+
+    #intro-text {
+        width: 30%;
+    }
+
+    #me-as-a-gif {
+        width: 14em;
+    }
+
+    .intro-spacer {
+        padding: 0;
+    }
+
+    .project-card {
+        top: 0.5em;
+        left: 0.5em;
+    }
+
+    #polaroid-row img {
+        width: 17.5%;
+    }
+
+    #polaroid-row h4 {
+        max-width: 40%;
+    }
+
+    .section-starter h1 {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 675px) {
+    #polaroid-row img {
+        width: 40%;
+    }
+
+    #polaroid-row,
+    #art-row {
+        margin: 0em;
+        justify-content: center;
+    }
+
+    #polaroid-row h4,
+    #art-row h4 {
+        width: 40%;
+        margin: 1em;
+    }
+
+    #polaroid-3,
+    #polaroid-5 {
+        display: none;
+    }
+
+    .project-page-content {
+        padding-top: 7.5rem;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .section-starter {
+        padding: 0.5em 2.5em;
+    }
+
+    .section-starter h3 {
+        display: none;
+    }
+
+    .project-card,
+    .project-card-gradient,
+    .project-card-image {
+        width: 14rem;
+    }
+
+    .project-card,
+    .project-card-gradient {
+        height: fit-content;
+    }
+
+    #me-as-a-gif {
+        width: 12em;
+        order: 1;
+        padding-bottom: 1em;
+    }
+
+    #intro-text {
+        order: 2;
+        width: 75%;
+        margin: auto;
+    }
+
+    #intro-section {
+        padding: 10rem 0rem 0rem;
+        flex-direction: column;
+    }
+
+    .copyright-footer {
+        justify-content: space-around;
+    }
+
+    #polaroid-row,
+    #art-row {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #polaroid-5 {
+        display: flex;
+    }
+
+    #polaroid-row h4,
+    #art-row h4 {
+        margin: 1em;
+        max-width: 80%;
+        width: 80%;
+    }
+
+    #polaroid-row img,
+    #art-row img {
+        margin: 1em;
+        width: 80%;
+    }
+
+    .section-starter h1 {
+        font-size: 20px;
+        padding: 0.25em 0em 0em 0em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section-text {
+        margin: 1em 1em 1em 2em;
+    }
+
+    #hamburger-nav {
+        margin: 0em 1.5rem 0.25em;
+    }
+}

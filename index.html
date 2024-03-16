@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Satyendra Sharma - Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaQuery.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <nav id="navbar">
             <ul>
                 <li>
-                    <h2><a href="#work-section">work</a></h2>
+                    <h2><a href="#project-section">project</a></h2>
                 </li>
                 <li>
                     <h2><a href="#skills-section">skills</a></h2>
@@ -27,7 +28,111 @@
                 </li>
             </ul>
         </nav>
+        <button id="hamburger-nav">+</button>
     </header>
+    <main>
+        <!-- intro section  -->
+        <section data-scroll id="intro-section">
+            <div id="intro-text" class="intro-spacer">
+                <h3>Hello, I’m Satyendra Sharma,<br> Front-end Developer &Back-end Developer Based in Gorakhpor.</h3>
+            </div>
+            <img id="me-as-a-gif" class="intro-spacer" src="assets/image/codding.gif"
+                alt="Online Coding classes for Kids">
+        </section>
+        <!-- projects section -->
+        <section id="project-section">
+            <div data-scroll id="project-starter" class="section-starter">
+                <h1>project</h1>
+                <h3>haha / hehe / hoho</h3>
+            </div>
+            <div id="project-content" class="section-content">
+                <div data-scroll class="project-card-gradient google-gradient">
+                    <a href="#">
+                        <div class="project-card">
+                            <h4 class="project-card-duration">hehee 0000</h4>
+                            <h5 class="project-card-title">project name</h5>
+                            <img class="project-card-image" src="" alt="project image">
+                            <h4 class="project-card-role">hehe / huhuh</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- skills section  -->
+        <section id="skills-section">
+            <div data-scroll id="skills-starter" class="section-starter">
+                <h1>skills</h1>
+                <h3>in order of relevance / proficiency</h3>
+            </div>
+            <div id="skills-content">
+                <div data-scroll id="technical" class="skill-type">
+                    <h2>Technical</h2>
+                    <div class="skills-grey-boxes">
+                        <h4>HTMl:5</h4>
+                        <h4>CSS</h4>
+                        <h4>Javascript</h4>
+                        <h4>Bootstrap</h4>
+                        <h4>Tailwind css</h4>
+                        <h4>MySQL</h4>
+                        <h4>PHP</h4>
+                        <h4>wordpress</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section -->
+        <section id="about-section">
+            <div data-scroll id="about-starter" class="section-starter">
+                <h1>about</h1>
+                <h3>a little bit more about me :)</h3>
+            </div>
+            <div class="about-content">
+                <div id="polaroid-row">
+                    <img id="polaroid-1" data-scroll src="assets/image/satya-1.png" alt="image">
+                    <img id="polaroid-2" data-scroll src="assets/image/satya-2.png" alt="image">
+                    <img id="polaroid-3" data-scroll src="assets/image/satya-3.png" alt="image">
+                    <img id="polaroid-4" data-scroll src="assets/image/satya-4.png" alt="image">
+                    <h4>
+                        <b>ABOUT ME:</b><br>
+                        Welcome to my portfolio! I'm Satyendra Sharma, a passionate and results-driven web developer
+                        with a deep love for creating beautiful, functional, and user-friendly websites. With 1 years of
+                        experience in the industry, I've had the privilege of working on a wide range of projects, from
+                        small business websites to complex e-commerce platforms.
+                    </h4>
+                    <img id="polaroid-5" data-scroll src="assets/image/satya-5.png" alt="image">
+                </div>
+                <div id="art-row">
+                    <img data-scroll src="" alt="imag">
+                    <h4>
+                        <b>MY APPROACH:</b><br>
+                        I am a firm believer in collaboration and effective communication. I work closely with clients
+                        to understand their unique needs and goals, and I'm committed to delivering solutions that
+                        exceed their expectations. Whether it's building a responsive design, optimizing site
+                        performance, or implementing e-commerce functionality, I approach each project with meticulous
+                        attention to detail.
+                    </h4>
+                    <img data-scroll src="" alt="imag">
+                    <img data-scroll src="" alt="imag">
+                    <img data-scroll src="" alt="imag">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="copyright-footer">
+                <h4>© 2024 by Satyendra Sharma</h4>
+                <div id="contact-button">
+                    <h2>contact:</h2>
+                    <div id="mail-gradient">
+                        <h4 id="mail-button"><a href="mailto: satya@gmail.com">satyendra@gmail.com</a>
+                        </h4>
+                    </div>
+                </div>
+                <h4>built from scratch :)</h4>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
